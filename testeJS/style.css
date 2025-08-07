@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: rgba(151, 152, 237, 0.911);
+    color: white;
+    font: normal 20pt Arial;
+}
+
+h1 {
+    color: rgb(139, 123, 8);
+    padding-top: 15px;
+}
+
+div#principal {
+    background-color: rgb(240, 210, 169);
+    margin: auto;
+    width: 500px;
+    height: 450px;
+    border-radius: 15px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.333);
+}
+button {
+    padding: 10px 15px;
+}
+div#saida {
+    background-color: rgb(77, 87, 80);
+    margin-top: 50px; 
+    font-size: 18px; 
+    color: white;
+}
