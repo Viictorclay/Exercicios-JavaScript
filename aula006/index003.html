@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - JS</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: rgba(151, 152, 237, 0.911);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: rgb(237, 237, 41);
+            padding-top: 15px;
+        }
+
+        div {
+            background-color: rgb(240, 210, 169);
+            margin: auto;
+            width: 500px;
+            height: 450px;
+            border-radius: 15px;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.333);
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Olá, mundo!</h1>
+        <p>Partiu JavaScript!</p>
+        <p>Olá, mundo! Só pra tirar a zica. 😉</p>
+    </div>
+    <script>
+        var n1 = Number(prompt("Digite um número:"));
+        var n2 = Number.parseInt(prompt("Digite outro número:"));
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} + ${n2} = ${s}`);
+    </script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 06 - JS</title>
+    <style>
+        body {
+            background-color: rgba(151, 152, 237, 0.911);
+            color: black;
+            text-align: center;
+            font: normal 15pt Arial;
+            margin-top: 20px;
+        }
+        h1 {
+            color: rgb(237, 237, 41);
+            padding-top: 15px;
+        }
+
+        div {
+            background-color: rgb(240, 210, 169);
+            margin: auto;
+            width: 500px;
+            height: 450px;
+            border-radius: 15px;
+            box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.333);
+        }
+
+        div > script {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <script>
+            var nome = window.prompt('Qual é seu nome?');
+            document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras <br/>`);
+            document.write(`Seu nome maiúsculo -> ${nome.toUpperCase()}<br/>`);
+            document.write(`Seu nome menúsculo -> ${nome.toLowerCase()}`)
+        </script>
+    </div>
+</body>
+</html>
+

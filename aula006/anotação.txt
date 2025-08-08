@@ -1,0 +1,45 @@
+<- JS ->
+----------------------------------------------------------------
+
+var n1 = Number(prompt("Digite um número:"));
+var n2 = Number.parseInt(prompt("Digite outro número:"));
+var s = n1 + n2
+window.alert(`A soma de ${n1} + ${n2} = ${s}`);
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ * window.prompt("); -> já sai como String
+ * Number(prompt("")); -> converte qualquer numero Int e Float 
+ * Number.parseInt(prompt("")); -> converte apenas pra Int
+ * Number.parseFloat(prompt("")); -> converte apenas para Float
+
+-----------------------------------------------------------------
+
+`Texto ${}` -> igual o format do python
+
+-----------------------------------------------------------------
+
+var nome = window.prompt('Qual é seu nome?');
+            document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras <br/>`);
+            document.write(`Seu nome maiúsculo -> ${nome.toUpperCase()}<br/>`);
+            document.write(`Seu nome menúsculo -> ${nome.toLowerCase()}`)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ * document.write(``); -> printa o texto no HTML do site
+ * nome.toUpperCase() -> converte para letras MAIÚCULA
+ * nome.toLowerCase() -> converte para letras menúscula
+
+------------------------------------------------------------------
+
+var n1 = 1545.5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+n1.toFixed() -> alterar casas decimais colocando o numero entre ()
+n1.replace('.', ',') -> troca uma coisa pela outra 
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> localisar para o brasil no style: 'dinheiro' e o dinheiro vai ser 'BRL' = Real
+> 'R$ 1,545.50'
+
+-------------------------------------------------------------------
+
